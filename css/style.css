@@ -1,0 +1,1665 @@
+.mobile-mclaren.mobile-mclaren-wrapper {
+  background-color: #f6f6f6;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+}
+
+.mobile-mclaren .div {
+  background-color: #f6f6f6;
+  overflow: hidden;
+  width: 390px;
+  height: 2493px;
+  position: relative;
+}
+
+.mobile-mclaren .overlap {
+  position: absolute;
+  width: 394px;
+  height: 2427px;
+  top: 66px;
+  left: -2px;
+}
+
+.mobile-mclaren .BG {
+  position: absolute;
+  width: 390px;
+  height: 2275px;
+  top: 152px;
+  left: 2px;
+}
+
+.mobile-mclaren .SUELDO {
+  display: flex;
+  flex-direction: column;
+  width: 394px;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 18px 16px 28px;
+  position: absolute;
+  top: 1008px;
+  left: 0;
+  border: 2px solid;
+  border-color: transparent;
+  border-image: linear-gradient(
+      104deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0) 100%
+    )
+    1;
+}
+
+.mobile-mclaren .img {
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.mobile-mclaren .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  font-family: "Expert Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 32.5px;
+}
+
+.mobile-mclaren .TYC {
+  width: 358px;
+  justify-content: space-between;
+  padding: 20px 16px;
+  position: absolute;
+  top: 789px;
+  left: 18px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #00000026;
+  display: flex;
+  align-items: center;
+}
+
+.mobile-mclaren .TYC-check {
+  gap: 6px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.mobile-mclaren .CHECK {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-color: var(--naranja-bna);
+  border-radius: 12px;
+  aspect-ratio: 1;
+}
+
+.mobile-mclaren .vector {
+  position: absolute;
+  width: 12px;
+  height: 13px;
+  top: 6px;
+  left: 6px;
+}
+
+.mobile-mclaren .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  font-family: "Expert Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #222222;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.mobile-mclaren .links {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.mobile-mclaren .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Expert Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--naranja-bna);
+  font-size: 16px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 18px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.mobile-mclaren .CTAS {
+  display: flex;
+  flex-direction: column;
+  width: 358px;
+  align-items: flex-start;
+  gap: 12px;
+  position: absolute;
+  top: 883px;
+  left: 18px;
+}
+
+.mobile-mclaren .CTA {
+  all: unset;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 12px 40px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--naranja-bna);
+  border-radius: 10px;
+}
+
+.mobile-mclaren .quiero-participar {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Expert Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 23.4px;
+  white-space: nowrap;
+}
+
+.mobile-mclaren .hola-nombre {
+  position: absolute;
+  width: 358px;
+  top: 452px;
+  left: 18px;
+  font-family: "Expert Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 33.0px;
+}
+
+.mobile-mclaren .span {
+  font-family: "Expert Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 33.0px;
+}
+
+.mobile-mclaren .text-wrapper-4 {
+  font-family: "Expert Sans-Bold", Helvetica;
+  font-weight: 700;
+}
+
+.mobile-mclaren .footer-mobile {
+  position: absolute;
+  width: 390px;
+  height: 300px;
+  top: 2127px;
+  left: 2px;
+  background-color: var(--azul-bna);
+}
+
+.mobile-mclaren .necesit-s-ayuda {
+  position: absolute;
+  width: 358px;
+  top: 48px;
+  left: 16px;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.mobile-mclaren .text-wrapper-5 {
+  font-family: "Open Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+}
+
+.mobile-mclaren .text-wrapper-6 {
+  font-weight: 700;
+}
+
+.mobile-mclaren .text-wrapper-7 {
+  font-weight: 600;
+}
+
+.mobile-mclaren .overlap-group {
+  position: absolute;
+  width: 275px;
+  height: 68px;
+  top: 187px;
+  left: 58px;
+}
+
+.mobile-mclaren .layer {
+  position: absolute;
+  width: 228px;
+  height: 55px;
+  top: 7px;
+  left: 23px;
+  object-fit: cover;
+}
+
+.mobile-mclaren .rectangle {
+  position: absolute;
+  width: 252px;
+  height: 68px;
+  top: 0;
+  left: 11px;
+  background-color: #005f86;
+}
+
+.mobile-mclaren .p {
+  position: absolute;
+  width: 275px;
+  top: 48px;
+  left: 0;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.mobile-mclaren .COBRAND {
+  position: absolute;
+  width: 152px;
+  height: 32px;
+  top: 8px;
+  left: 61px;
+}
+
+.mobile-mclaren .header-mobile {
+  position: absolute;
+  width: 390px;
+  height: 413px;
+  top: 0;
+  left: 2px;
+  background-color: #000000;
+  box-shadow: 0px 4px 8px #0000001a;
+}
+
+.mobile-mclaren .overlap-2 {
+  position: relative;
+  height: 413px;
+  background-image: url(./img/bg-1.svg);
+  background-size: 100% 100%;
+}
+
+.mobile-mclaren .overlap-3 {
+  position: absolute;
+  width: 390px;
+  height: 340px;
+  top: 73px;
+  left: 0;
+}
+
+.mobile-mclaren .misc {
+  position: absolute;
+  width: 374px;
+  height: 75px;
+  top: 265px;
+  left: 16px;
+}
+
+.mobile-mclaren .LN-front-JD {
+  position: absolute;
+  width: 390px;
+  height: 293px;
+  top: 47px;
+  left: 0;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.mobile-mclaren .y-viaj-a-san-pablo {
+  position: absolute;
+  width: 346px;
+  height: 52px;
+  top: 61px;
+  left: 22px;
+  font-family: "KievitOT-BlackItalic", Helvetica;
+  font-weight: 900;
+  font-style: italic;
+  color: #ff8000;
+  font-size: 26px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+
+.mobile-mclaren .title {
+  position: absolute;
+  width: 390px;
+  height: 59px;
+  top: 0;
+  left: 0;
+}
+
+.mobile-mclaren .overlap-group-2 {
+  position: relative;
+  width: 334px;
+  height: 70px;
+  top: -2px;
+}
+
+.mobile-mclaren .vector-2 {
+  position: absolute;
+  width: 87px;
+  height: 42px;
+  top: 16px;
+  left: 0;
+}
+
+.mobile-mclaren .aceler {
+  position: absolute;
+  width: 278px;
+  height: 70px;
+  top: 0;
+  left: 56px;
+  font-family: "KievitOT-BlackItalic", Helvetica;
+  font-weight: 900;
+  font-style: italic;
+  color: #ff8000;
+  font-size: 64px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 70.4px;
+}
+
+.mobile-mclaren .logos {
+  position: absolute;
+  width: 170px;
+  height: 49px;
+  top: 19px;
+  left: 110px;
+}
+
+.mobile-mclaren .particip-con-tu {
+  position: absolute;
+  width: 358px;
+  top: 495px;
+  left: 18px;
+  font-family: "Expert Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 26.4px;
+}
+
+.mobile-mclaren .text-wrapper-8 {
+  font-family: "Expert Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 26.4px;
+}
+
+.mobile-mclaren .cortes-a-de {
+  position: absolute;
+  width: 358px;
+  height: 18px;
+  top: 740px;
+  left: 18px;
+  font-family: "Expert Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 17.6px;
+}
+
+.mobile-mclaren .text-wrapper-9 {
+  font-family: "Expert Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 17.6px;
+}
+
+.mobile-mclaren .content {
+  display: flex;
+  flex-direction: column;
+  width: 358px;
+  align-items: center;
+  gap: 15px;
+  position: absolute;
+  top: 575px;
+  left: 18px;
+}
+
+.mobile-mclaren .text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.mobile-mclaren .text-wrapper-10 {
+  position: relative;
+  align-self: stretch;
+  height: 25px;
+  margin-top: -1.00px;
+  font-family: "Expert Sans-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 26.4px;
+  white-space: nowrap;
+}
+
+.mobile-mclaren .y-disfrut-de-un-meet {
+  position: relative;
+  align-self: stretch;
+  height: 59px;
+  font-family: "Expert Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22.0px;
+}
+
+.mobile-mclaren .text-wrapper-11 {
+  font-family: "Expert Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 22.0px;
+}
+
+.mobile-mclaren .text-wrapper-12 {
+  position: absolute;
+  width: 358px;
+  height: 20px;
+  top: 949px;
+  left: 18px;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  line-height: 19.8px;
+  font-family: "Expert Sans-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.mobile-mclaren .cmo-participar-CTA {
+  position: absolute;
+  width: 390px;
+  height: 560px;
+  top: 1246px;
+  left: 2px;
+  background-image: url(./img/bg-2.svg);
+  background-size: 100% 100%;
+}
+
+.mobile-mclaren .text-wrapper-13 {
+  position: absolute;
+  width: 358px;
+  height: 30px;
+  top: 56px;
+  left: 16px;
+  font-family: "Expert Sans-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.mobile-mclaren .duplica {
+  top: 231px;
+  display: flex;
+  flex-direction: column;
+  width: 358px;
+  align-items: flex-start;
+  gap: 6px;
+  padding: 0px 0px 10px;
+  position: absolute;
+  left: 16px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-color: #ffffff;
+}
+
+.mobile-mclaren .tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 3px 8px 5px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.mobile-mclaren .sum {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "KievitOT-BlackItalic", Helvetica;
+  font-weight: 900;
+  font-style: italic;
+  color: #111111;
+  font-size: 20px;
+  letter-spacing: 1.00px;
+  line-height: 26.0px;
+  white-space: nowrap;
+}
+
+.mobile-mclaren .item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.mobile-mclaren .icon {
+  background-color: #ff8000;
+  border-radius: 12px;
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.mobile-mclaren .icons {
+  position: relative;
+  width: 14px;
+  height: 10px;
+  top: 7px;
+  left: 5px;
+}
+
+.mobile-mclaren .overlap-group-3 {
+  position: relative;
+  width: 16px;
+  height: 12px;
+  top: -1px;
+  left: -1px;
+}
+
+.mobile-mclaren .vector-3 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 0;
+  left: 0;
+}
+
+.mobile-mclaren .vector-4 {
+  position: absolute;
+  width: 10px;
+  height: 12px;
+  top: 0;
+  left: 6px;
+}
+
+.mobile-mclaren .div-2 {
+  position: relative;
+  width: 296px;
+  margin-top: -1.00px;
+  font-family: "Expert Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 23.4px;
+}
+
+.mobile-mclaren .text-wrapper-14 {
+  font-family: "Expert Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 23.4px;
+}
+
+.mobile-mclaren .duplica-2 {
+  top: 403px;
+  display: flex;
+  flex-direction: column;
+  width: 358px;
+  align-items: flex-start;
+  gap: 6px;
+  padding: 0px 0px 10px;
+  position: absolute;
+  left: 16px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-color: #ffffff;
+}
+
+.mobile-mclaren .icon-2 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.mobile-mclaren .duplica-3 {
+  top: 111px;
+  display: flex;
+  flex-direction: column;
+  width: 358px;
+  align-items: flex-start;
+  gap: 6px;
+  padding: 0px 0px 10px;
+  position: absolute;
+  left: 16px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-color: #ffffff;
+}
+
+.mobile-mclaren .vector-5 {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 6px;
+  left: 6px;
+}
+
+.mobile-mclaren .banner {
+  display: flex;
+  flex-direction: column;
+  width: 390px;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 24px 16px 20px;
+  position: absolute;
+  top: 1846px;
+  left: 2px;
+  background-color: #ffffff;
+  border-radius: 5px 30px 5px 20px;
+  overflow: hidden;
+}
+
+.mobile-mclaren .contenido {
+  display: flex;
+  align-items: center;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.mobile-mclaren .frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 6px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.mobile-mclaren .text-wrapper-15 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Expert Sans-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #111111;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 24.2px;
+}
+
+.mobile-mclaren .text-wrapper-16 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Expert Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #111111;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 17.6px;
+}
+
+.mobile-mclaren .overlap-group-wrapper {
+  position: relative;
+  width: 110px;
+  height: 112px;
+}
+
+.mobile-mclaren .overlap-group-4 {
+  position: relative;
+  width: 108px;
+  height: 112px;
+  left: 2px;
+}
+
+.mobile-mclaren .REMERA {
+  position: absolute;
+  width: 75px;
+  height: 103px;
+  top: 0;
+  left: 33px;
+  aspect-ratio: 0.75;
+  object-fit: cover;
+}
+
+.mobile-mclaren .MOCHILA {
+  position: absolute;
+  width: 71px;
+  height: 91px;
+  top: 21px;
+  left: 0;
+  aspect-ratio: 0.79;
+  object-fit: cover;
+}
+
+.mobile-mclaren .text-wrapper-17 {
+  position: relative;
+  align-self: stretch;
+  opacity: 0.5;
+  color: #111111;
+  font-size: 14px;
+  line-height: 15.4px;
+  font-family: "Expert Sans-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.mobile-mclaren .NAV {
+  position: fixed;
+  width: 390px;
+  height: 66px;
+  top: 0;
+  left: 0;
+}
+
+.mobile-mclaren.desktop-mclaren-wrapper {
+  background-color: #f6f6f6;
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+}
+
+.mobile-mclaren .desktop-mclaren {
+  background-color: #f6f6f6;
+  width: 1440px;
+  height: 2788px;
+  position: relative;
+}
+
+.mobile-mclaren .overlap-4 {
+  position: absolute;
+  width: 1440px;
+  height: 2688px;
+  top: 100px;
+  left: 0;
+}
+
+.mobile-mclaren .BG-2 {
+  width: 1440px;
+  height: 2613px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mobile-mclaren .SUELDO-2 {
+  display: flex;
+  width: 1200px;
+  align-items: center;
+  gap: 24px;
+  padding: 34px 24px;
+  position: absolute;
+  top: 1176px;
+  left: 120px;
+  border-radius: 40px 20px 70px 20px;
+  border: none;
+}
+
+.mobile-mclaren .SUELDO-2::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 4px;
+  border-radius: 40px 20px 70px 20px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 98%
+  );
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.mobile-mclaren .text-wrapper-18 {
+  position: relative;
+  flex: 1;
+  margin-top: -4.00px;
+  font-family: "Expert Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 43.2px;
+}
+
+.mobile-mclaren .footer-desktop {
+  position: absolute;
+  width: 1440px;
+  height: 270px;
+  top: 2418px;
+  left: 0;
+  background-color: var(--azul-bna);
+}
+
+.mobile-mclaren .necesit-s-ayuda-2 {
+  position: absolute;
+  width: 611px;
+  top: 42px;
+  left: 120px;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.mobile-mclaren .text-wrapper-19 {
+  font-family: "Open Sans", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+}
+
+.mobile-mclaren .text-wrapper-20 {
+  position: absolute;
+  width: 329px;
+  top: 134px;
+  left: 987px;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 13px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.mobile-mclaren .logos-2 {
+  position: absolute;
+  width: 195px;
+  height: 44px;
+  top: 80px;
+  left: 1121px;
+}
+
+.mobile-mclaren .hola-nombre-2 {
+  position: absolute;
+  width: 588px;
+  height: 26px;
+  top: 431px;
+  left: 120px;
+  font-family: "Expert Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 44.0px;
+  white-space: nowrap;
+}
+
+.mobile-mclaren .text-wrapper-21 {
+  font-family: "Expert Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: 44.0px;
+}
+
+.mobile-mclaren .cortes-a-de-2 {
+  position: absolute;
+  width: 383px;
+  height: 24px;
+  top: 789px;
+  left: 120px;
+  font-family: "Expert Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 24.2px;
+}
+
+.mobile-mclaren .text-wrapper-22 {
+  font-family: "Expert Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 24.2px;
+}
+
+.mobile-mclaren .particip-con-tu-2 {
+  position: absolute;
+  width: 531px;
+  height: 63px;
+  top: 479px;
+  left: 120px;
+  font-family: "Expert Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 39.6px;
+}
+
+.mobile-mclaren .text-wrapper-23 {
+  font-family: "Expert Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 39.6px;
+}
+
+.mobile-mclaren .content-2 {
+  display: flex;
+  flex-direction: column;
+  width: 531px;
+  align-items: flex-start;
+  gap: 15px;
+  position: absolute;
+  top: 573px;
+  left: 120px;
+}
+
+.mobile-mclaren .text-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.mobile-mclaren .text-wrapper-24 {
+  position: relative;
+  align-self: stretch;
+  height: 33px;
+  margin-top: -1.00px;
+  font-family: "Expert Sans-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 35.2px;
+  white-space: nowrap;
+}
+
+.mobile-mclaren .y-disfrut-de-un-meet-2 {
+  position: relative;
+  align-self: stretch;
+  height: 89px;
+  font-family: "Expert Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 33.0px;
+}
+
+.mobile-mclaren .div-wrapper {
+  position: absolute;
+  width: 588px;
+  height: 386px;
+  top: 428px;
+  left: 732px;
+}
+
+.mobile-mclaren .overlap-group-5 {
+  position: relative;
+  height: 386px;
+}
+
+.mobile-mclaren .misc-2 {
+  position: absolute;
+  width: 269px;
+  height: 55px;
+  top: 0;
+  left: 319px;
+}
+
+.mobile-mclaren .LN {
+  position: absolute;
+  width: 588px;
+  height: 386px;
+  top: 0;
+  left: 0;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.mobile-mclaren .BG-3 {
+  width: 588px;
+  height: 382px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mobile-mclaren .banner-cmo {
+  position: absolute;
+  width: 1440px;
+  height: 614px;
+  top: 1380px;
+  left: 0;
+  background-image: url(./img/bg-5.svg);
+  background-size: 100% 100%;
+}
+
+.mobile-mclaren .text-wrapper-25 {
+  position: absolute;
+  width: 996px;
+  height: 47px;
+  top: 73px;
+  left: 222px;
+  font-family: "Expert Sans-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 47px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 47px;
+}
+
+.mobile-mclaren .duplica-4 {
+  display: flex;
+  flex-direction: column;
+  width: 486px;
+  align-items: flex-start;
+  gap: 6px;
+  padding: 0px 0px 10px;
+  position: absolute;
+  top: 265px;
+  left: 732px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-color: #ffffff;
+}
+
+.mobile-mclaren .sum-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "KievitOT-BlackItalic", Helvetica;
+  font-weight: 900;
+  /* font-style: italic; */
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 1.20px;
+  line-height: 31.2px;
+  white-space: nowrap;
+}
+
+.mobile-mclaren .item-2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.mobile-mclaren .div-3 {
+  flex: 1;
+  position: relative;
+  margin-top: -1.00px;
+  font-family: "Expert Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 23.4px;
+}
+
+.mobile-mclaren .por-cada-compra-con {
+  width: 376.38px;
+  position: relative;
+  margin-top: -1.00px;
+  font-family: "Expert Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 23.4px;
+}
+
+.mobile-mclaren .triplica {
+  display: flex;
+  flex-direction: column;
+  width: 486px;
+  align-items: flex-start;
+  gap: 6px;
+  padding: 0px 0px 10px;
+  position: absolute;
+  top: 438px;
+  left: 732px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-color: #ffffff;
+}
+
+.mobile-mclaren .una-chance {
+  display: flex;
+  flex-direction: column;
+  width: 486px;
+  align-items: flex-start;
+  gap: 6px;
+  padding: 0px 0px 10px;
+  position: absolute;
+  top: 144px;
+  left: 732px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-color: #ffffff;
+}
+
+.mobile-mclaren .overlap-wrapper {
+  position: absolute;
+  width: 486px;
+  height: 390px;
+  top: 149px;
+  left: 222px;
+}
+
+.mobile-mclaren .overlap-5 {
+  position: relative;
+  height: 390px;
+}
+
+.mobile-mclaren .vector-6 {
+  width: 486px;
+  height: 68px;
+  top: 0;
+  position: absolute;
+  left: 0;
+}
+
+.mobile-mclaren .LN-overhead {
+  position: absolute;
+  width: 486px;
+  height: 390px;
+  top: 0;
+  left: 0;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.mobile-mclaren .TYC-2 {
+  display: flex;
+  width: 996px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 24px;
+  position: absolute;
+  top: 864px;
+  left: 222px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px #00000026;
+}
+
+.mobile-mclaren .TYC-check-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.mobile-mclaren .vector-wrapper {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: var(--naranja-bna);
+  border-radius: 20px;
+  aspect-ratio: 1;
+}
+
+.mobile-mclaren .vector-7 {
+  position: absolute;
+  width: 19px;
+  height: 22px;
+  top: 9px;
+  left: 11px;
+}
+
+.mobile-mclaren .text-wrapper-26 {
+  position: relative;
+  width: fit-content;
+  font-family: "Expert Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #222222;
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: 26px;
+  white-space: nowrap;
+}
+
+.mobile-mclaren .links-2 {
+  display: inline-flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 10px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.mobile-mclaren .text-wrapper-27 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Expert Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--naranja-bna);
+  font-size: 24px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.mobile-mclaren .quiero-participar-wrapper {
+  all: unset;
+  box-sizing: border-box;
+  gap: 10px;
+  padding: 18px 40px;
+  position: absolute;
+  top: 1008px;
+  left: 563px;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--naranja-bna);
+}
+
+.mobile-mclaren .quiero-participar-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Expert Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 32.5px;
+  white-space: nowrap;
+}
+
+.mobile-mclaren .header-desktop {
+  position: absolute;
+  width: 1440px;
+  height: 370px;
+  top: 0;
+  left: 0;
+  box-shadow: 0px 4.7px 9.4px #0000001a;
+  background-image: url(./img/rectangle-24053.svg);
+  background-size: 100% 100%;
+}
+
+.mobile-mclaren .overlap-6 {
+  position: relative;
+  height: 370px;
+}
+
+.mobile-mclaren .overlap-7 {
+  position: absolute;
+  width: 1440px;
+  height: 370px;
+  top: 0;
+  left: 0;
+}
+
+.mobile-mclaren .title-2 {
+  position: absolute;
+  width: 732px;
+  height: 224px;
+  top: 132px;
+  left: 0;
+}
+
+.mobile-mclaren .overlap-group-6 {
+  position: relative;
+  width: 677px;
+  height: 207px;
+  top: -3px;
+}
+
+.mobile-mclaren .vector-8 {
+  width: 191px;
+  height: 74px;
+  top: 28px;
+  position: absolute;
+  left: 0;
+}
+
+.mobile-mclaren .aceler-2 {
+  position: absolute;
+  width: 507px;
+  height: 123px;
+  top: 0;
+  left: 154px;
+  font-family: "KievitOT-BlackItalic", Helvetica;
+  font-weight: 900;
+  font-style: italic;
+  color: #ff8000;
+  font-size: 111.8px;
+  letter-spacing: 0;
+  line-height: 123.0px;
+}
+
+.mobile-mclaren .y-VIAJ-a-san-pablo {
+  position: absolute;
+  width: 531px;
+  height: 87px;
+  top: 120px;
+  left: 146px;
+  font-family: "KievitOT-BlackItalic", Helvetica;
+  font-weight: 900;
+  font-style: italic;
+  color: #ff8000;
+  font-size: 46px;
+  letter-spacing: 0;
+  line-height: 50.6px;
+}
+
+.mobile-mclaren .misc-3 {
+  position: absolute;
+  width: 708px;
+  height: 95px;
+  top: 275px;
+  left: 732px;
+}
+
+.mobile-mclaren .OP-front {
+  position: absolute;
+  width: 680px;
+  height: 370px;
+  top: 0;
+  left: 677px;
+  aspect-ratio: 1.34;
+  object-fit: cover;
+}
+
+.mobile-mclaren .logos-3 {
+  position: absolute;
+  width: 210px;
+  height: 60px;
+  top: 27px;
+  left: 120px;
+}
+
+.mobile-mclaren .text-wrapper-28 {
+  position: absolute;
+  width: 913px;
+  height: 24px;
+  top: 1105px;
+  left: 264px;
+  font-family: "Expert Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24.2px;
+}
+
+.mobile-mclaren .contenido-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 996px;
+  align-items: flex-start;
+  gap: 6px;
+  padding: 30px 102px;
+  position: absolute;
+  top: 2054px;
+  left: 222px;
+  background-color: #ffffff;
+  border-radius: 30px 5px 20px 5px;
+  overflow: hidden;
+}
+
+.mobile-mclaren .contenido-2 {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.mobile-mclaren .txt {
+  justify-content: center;
+  gap: 20px;
+  flex: 1;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.mobile-mclaren .txt-2 {
+  gap: 10px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.mobile-mclaren .text-wrapper-29 {
+  position: relative;
+  align-self: stretch;
+  height: 29px;
+  margin-top: -1.00px;
+  font-family: "Expert Sans-ExtraBold", Helvetica;
+  font-weight: 800;
+  color: #111111;
+  font-size: 28px;
+  letter-spacing: 0;
+  line-height: 30.8px;
+  white-space: nowrap;
+}
+
+.mobile-mclaren .text-wrapper-30 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Expert Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #111111;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 26.4px;
+}
+
+.mobile-mclaren .text-wrapper-31 {
+  position: relative;
+  align-self: stretch;
+  opacity: 0.5;
+  font-family: "Expert Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #111111;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 22.0px;
+}
+
+.mobile-mclaren .img-2 {
+  position: relative;
+  width: 180px;
+  height: 154px;
+}
+
+.mobile-mclaren .overlap-group-7 {
+  position: relative;
+  width: 177px;
+  height: 154px;
+  left: 3px;
+}
+
+.mobile-mclaren .REMERA-2 {
+  position: absolute;
+  width: 114px;
+  height: 152px;
+  top: 0;
+  left: 63px;
+  aspect-ratio: 0.75;
+  object-fit: cover;
+}
+
+.mobile-mclaren .MOCHILA-2 {
+  position: absolute;
+  width: 117px;
+  height: 149px;
+  top: 5px;
+  left: 0;
+  aspect-ratio: 0.79;
+  object-fit: cover;
+}
+
+.mobile-mclaren .NAV-BAR {
+  display: flex;
+  width: 1440px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 120px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #005f86;
+}
+
+.mobile-mclaren .logo-bna {
+  position: relative;
+  width: 96px;
+  height: 34px;
+  object-fit: cover;
+}
+
+.mobile-mclaren .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 24px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.mobile-mclaren .text-wrapper-32 {
+  position: relative;
+  width: fit-content;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.mobile-mclaren .button {
+  all: unset;
+  box-sizing: border-box;
+  padding: 12px 25px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 100px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f26c29;
+}
+
+.mobile-mclaren .text-wrapper-33 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Open Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+@media (max-width: 389px) {
+  .mobile-mclaren.desktop-mclaren-wrapper {
+    display: none !important;
+  }
+}
+
+@media (min-width: 390px) {
+  .mobile-mclaren.mobile-mclaren-wrapper {
+    display: none !important;
+  }
+}
