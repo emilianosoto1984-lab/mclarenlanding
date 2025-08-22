@@ -24,7 +24,7 @@
             <div class="links"><div class="text-wrapper-3">Descargar</div></div>
           </div>
           <div class="CTAS">
-            <button class="CTA"><div class="quiero-participar">QUIERO PARTICIPAR</div></button>
+            <button class="CTA" type="button" id="btnEnviarMob" onclick="enviarRegistroDesdeQuery(this)"><div class="quiero-participar">QUIERO PARTICIPAR</div></button>
           </div>
           <p class="hola-nombre">
             <span class="span">¡Hola,</span>
@@ -289,7 +289,7 @@
             </div>
             <div class="links-2"><div class="text-wrapper-27">Descargar</div></div>
           </div>
-          <button class="quiero-participar-wrapper" id="btnEnviar" type="button"><div class="quiero-participar-2">QUIEROO PARTICIPAR</div></button>
+          <button class="quiero-participar-wrapper" id="btnEnviarDesk" onclick="enviarRegistroDesdeQuery(this)" type="button"><div class="quiero-participar-2">QUIERO PARTICIPAR</div></button>
           <div class="header-desktop">
             <div class="overlap-6">
               <div class="overlap-7">
@@ -346,52 +346,79 @@
   const ENDPOINT = "https://digiregistertyc-gadbcvfcc3gca6e0.canadacentral-01.azurewebsites.net/api/DigiRegisterTyC";
 const PARAM_NAME = "id"; 
 
-function getQueryParam(name) {
-  return new URLSearchParams(location.search).get(name);
-}
+// function getQueryParam(name) {
+//   return new URLSearchParams(location.search).get(name);
+// }
 
-  async function enviarRegistro(id) {
-    const res = await fetch(ENDPOINT, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        id: id.trim(),
-        fecha: new Date().toISOString() // opcional
-      }),
-      signal: AbortSignal.timeout(8000) // timeout de 8s (Chromium/Edge)
-    });
+//   async function enviarRegistro(id) {
+//     const res = await fetch(ENDPOINT, {
+//       method: "POST",
+//       headers: { "Content-Type": "application/json" },
+//       body: JSON.stringify({
+//         id: id.trim(),
+//         fecha: new Date().toISOString() // opcional
+//       }),
+//       signal: AbortSignal.timeout(8000) // timeout de 8s (Chromium/Edge)
+//     });
 
-    let data = {};
-    try { data = await res.json(); } catch {}
-    if (!res.ok) throw new Error(data.error || `HTTP ${res.status}`);
-    return data; // { message, input, created: {...} }
-  }
+//     let data = {};
+//     try { data = await res.json(); } catch {}
+//     if (!res.ok) throw new Error(data.error || `HTTP ${res.status}`);
+//     return data; // { message, input, created: {...} }
+//   }
 
- const btn = document.getElementById("btnEnviar");
-  const msg = document.getElementById("msg");
+// const btn = document.getElementById("btnEnviar");
+  // const msg = document.getElementById("msg");
 
-  btn.addEventListener("click", async () => {
+   
+  // btn.addEventListener("click", async () => {
 
-    const id = getQueryParam(PARAM_NAME);
-    if (!id) {
-      msg.textContent = `Falta el parámetro '${PARAM_NAME}' en la URL.`;
-      return;
-    }
+  //   const id = getQueryParam(PARAM_NAME);
+  //   if (!id) {
+  //     msg.textContent = `Falta el parámetro '${PARAM_NAME}' en la URL.`;
+  //     return;
+  //   }
 
-    // evitar doble click
-    btn.disabled = true; //msg.textContent = "Enviando...";
+  //   // evitar doble click
+  //   btn.disabled = true; //msg.textContent = "Enviando...";
+  //   try {
+  //     const r = await enviarRegistro(id);
+  //     //msg.textContent = "¡Registrado!";
+  //     console.log("Respuesta:", r);
+  //     // opcional: marcar como enviado por sesión
+  //     // sessionStorage.setItem(`tyc:${id}`, "ok");
+  //   } catch (e) {
+  //     console.error(e);
+  //     //msg.textContent = "No se pudo registrar: " + e.message;
+  //   } finally {
+  //     btn.disabled = false;
+  //   }
+  // });
+
+    window.enviarRegistroDesdeQuery = async function(btn){
+    //const param = btn?.dataset?.param || "id";
+    const id = new URLSearchParams(location.search).get(PARAM_NAME);
+    if (!id) { alert(`Falta el parámetro '${param}' en la URL`); return; }
+
+    btn.disabled = true;
     try {
-      const r = await enviarRegistro(id);
-      //msg.textContent = "¡Registrado!";
-      console.log("Respuesta:", r);
-      // opcional: marcar como enviado por sesión
-      // sessionStorage.setItem(`tyc:${id}`, "ok");
+      const res = await fetch(ENDPOINT, {
+        method: "POST",
+        headers: { "Content-Type":"application/json" },
+        body: JSON.stringify({ id: id.trim(), fecha: new Date().toISOString() })
+      });
+      const data = await res.json().catch(()=>({}));
+      if (!res.ok) throw new Error(data.error || `HTTP ${res.status}`);
+      //alert("¡Registrado!");
+      console.log("OK:", data);
     } catch (e) {
       console.error(e);
-      //msg.textContent = "No se pudo registrar: " + e.message;
+      //alert("No se pudo registrar: " + e.message);
     } finally {
       btn.disabled = false;
     }
-  });
+  }
+
+
 </script>
 </html>
